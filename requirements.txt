@@ -1,0 +1,25 @@
+# Enterprise RAG Pipeline - Dependencies
+# Core Framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# LangChain & LLM
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-huggingface==0.1.2
+
+# Vector Store & Embeddings
+faiss-cpu==1.9.0.post1
+sentence-transformers==3.3.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.20
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.28.1

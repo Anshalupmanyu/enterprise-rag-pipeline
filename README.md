@@ -242,11 +242,3 @@ uvicorn app.main:app --reload --port 8000
 - **Health Checks** — Docker HEALTHCHECK + API health endpoint
 
 ---
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-Built with ❤️ using open-source tools. Zero API costs. Enterprise-grade architecture.
